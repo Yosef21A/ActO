@@ -1,0 +1,75 @@
+.profile-container {
+    background-color: #888888; /* Dark grey background */
+    color: #000000; /* White text */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .profile-card {
+    background-color: #444; /* Slightly lighter dark grey */
+    color: #1d1d1d; /* White text */
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-title {
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #fff; /* White text */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .profile-subtitle {
+    font-weight: bold;
+    margin-top: 1.5rem;
+    color: #fff; /* White text */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .profile-card p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .profile-card strong {
+    color: #fff; /* White text */
+  }
+  
+  .btn-primary {
+    background-color: #000; /* Black button */
+    border-color: #000; /* Black border */
+  }
+  
+  .btn-primary:hover {
+    background-color: #444; /* Slightly lighter dark grey on hover */
+    border-color: #444; /* Slightly lighter dark grey border on hover */
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+  }
+  
+  .btn-block {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    margin-bottom: 1rem;
+  }

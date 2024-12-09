@@ -1,0 +1,97 @@
+/* Container Styles */
+.book-event-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-event-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  /* Form Styles */
+  .book-event-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .book-event-form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  .book-event-label {
+    font-size: 1rem;
+    color: #555;
+    font-weight: 500;
+  }
+  
+  .book-event-form-control {
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .book-event-form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #fff;
+  }
+  
+  /* Button Styles */
+  .book-event-btn-primary {
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .book-event-btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Message Styling */
+  .book-event-message {
+    text-align: center;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .book-event-message.error {
+    color: #ff6b6b;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 600px) {
+    .book-event-container {
+      padding: 15px;
+    }
+  
+    .book-event-title {
+      font-size: 1.8rem;
+    }
+  
+    .book-event-btn-primary {
+      font-size: 1rem;
+      padding: 10px 18px;
+    }
+  }
+  
